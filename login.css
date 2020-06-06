@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.new{
+    padding: 30px;
+    position: fixed;
+    top:50px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:
+    transparent;
+    text-align: center;
+    color:
+    rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+.form{
+
+
+    margin: 0;
+    padding: 30px;
+   position: fixed;
+top: 150px;
+left: 50%;
+transform: translateX(-50%);
+width: 240px;
+height: 300px;
+background-color: rgba(0, 0,0, .3);
+
+}
+.infor{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+   margin-bottom: 15px;
+   
+}
+.infor:focus{
+    border-color:yellow;
+}
+
+#second{
+   color: white;
+   font-size: small;
+  
+}
+.form1{
+    width: 100%;
+    margin-top: 30px;
+ background-color: transparent;
+    height: 30px;
+    display: block;
+    color: white;
+    padding: 1px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.form1:hover{
+    border-color: yellowgreen;
+}
+#account{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+
+}
+#for{
+    margin-top: 30px;
+    color: white;
+    font-size: small;
+}
